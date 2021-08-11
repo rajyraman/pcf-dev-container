@@ -1,0 +1,1 @@
+(Get-Content -path '/workspaces/pcf-dev-container/src/node_modules/pcf-scripts/tasks/startTask.js' -Raw) -replace 'cmd','pwsh' | Set-Content '/workspaces/pcf-dev-container/src/node_modules/pcf-scripts/tasks/startTask.js'
