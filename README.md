@@ -16,4 +16,4 @@ Port mapping to 8081 is setup, so you would be able to test and debug using Test
 # Known Issues
 
 1. The very first time you run something from PCF Builder, the path would be the folder with README.md. This would cause _pac_ to complain that .gitignore already exists. So, you need to navigate into _src_ folder and try this again. Make sure that you are in the PCF Builder terminal window when you do this.
-2. Reloading does not seem to work inside Dev Containers inside VSCode. Run this command inside the DevContainer terminal `$env:CHOKIDAR_USEPOLLING = 1` to get force Chokidar to use polling instead of file watch. Reference: https://github.com/facebook/create-react-app/issues/1049. This issue is not seen in Codespaces.
+2. Reloading does not seem to work inside Dev Containers inside VSCode. So environment variable CHOKIDAR_USEPOLLING has been set to 1 to poll, rather than watch file changes. Reference: https://github.com/facebook/create-react-app/issues/1049.
