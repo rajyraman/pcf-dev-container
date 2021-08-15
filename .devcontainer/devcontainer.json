@@ -9,11 +9,8 @@
 		"danish-naglekar.pcf-builder"
 	],
 	"forwardPorts": [8181],
-	"portsAttributes": {
-		"8181": {
-			"label": "Application",
-			"onAutoForward": "openPreview"
-		}
+	"containerEnv": {
+		"CHOKIDAR_USEPOLLING": "1"
 	},
 	"postCreateCommand": "pwsh -c 'if(-not (Test-Path /workspaces/tools)) { git clone --depth=1 https://github.com/microsoft/powerplatform-actions.git actions; Move-Item -Path ./actions/dist/pac_linux/tools -Destination /workspaces -Force; Remove-Item actions -Force -Recurse; }'"
 }
