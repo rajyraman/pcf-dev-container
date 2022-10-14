@@ -22,9 +22,6 @@
 			]
 		}
 	},
-	"containerEnv": {
-		"CHOKIDAR_USEPOLLING": "true"
-	},
 	"forwardPorts": [
 		8181
 	],
