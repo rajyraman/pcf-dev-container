@@ -1,6 +1,6 @@
 # Power Apps Component Framework - Dev Containers
 
-This is a template repo to enable anyone to create new PCF component repos with Dev Container config setup. With Dev Containers, you can develop entirely inside GitHub Codespaces. The biggest advantage is that you don't need all the dependencies like VSCode, .NET Framework, Node JS all installed on your local machine. Everything you need is right inside the browser.
+This is a template repo to enable anyone to create new PCF component repos with Dev Container config setup. With Dev Containers, you can develop entirely inside GitHub Codespaces. The biggest advantage is that you don't need all the dependencies like VSCode, .NET Framework, Node.js all installed on your local machine. Everything you need is right inside the browser.
 
 # Usage
  
